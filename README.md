@@ -5,6 +5,7 @@
 At first build the images: docker-compose build
 
 For development: docker-compose up -d
+
 For production: docker-compose -f docker-compose.prod.yml up -d
 
 ### Web client
@@ -21,6 +22,7 @@ http://localhost:8081
 
 #### Credentials
 db name, user, password are docker-compose.yml
+
 host is name of the running postgres container
 
 #### Possible problems:
